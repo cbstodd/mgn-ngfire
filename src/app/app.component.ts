@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
-@Component({
+@Component ({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: [ './app.component.scss' ]
 })
 export class AppComponent {
-  title = 'mgn-ngfire';
+  title: string = `My Gift Network`;
+
 }
